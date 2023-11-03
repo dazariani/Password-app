@@ -3,13 +3,6 @@ import styled from "styled-components";
 import { PatternProps } from "../../App";
 import { UseFormRegister, UseFormWatch, FieldValues } from "react-hook-form";
 
-// type InputProps = {
-//   uppercase: string;
-//   lowercase: string;
-//   numbers: string;
-//   symbols: string;
-// };
-
 interface Props {
   patternData: PatternProps;
   setPatternData: (props: PatternProps) => void;
